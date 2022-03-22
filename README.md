@@ -1,4 +1,4 @@
-# Powered By @LegendBot_XD
+# Powered By @Murat_30_God
 
 ## ⚠️ Note : Dont Try To Missuse This Repo
 
