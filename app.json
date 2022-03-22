@@ -18,15 +18,15 @@
         },
         "API_HASH": {
             "description": "Your API Hash from my.telegram.org",
-            "value": ""
+            "value": "eec8bf9b714bc4942e1cbfbdfb299063"
         },
         "YOUR_NAME": {
             "description": "Your Name Plz",
-            "value": ""
+            "value": "Hacker"
         },
         "APP_ID": {
             "description": "Your API ID from my.telegram.org",
-            "value": ""
+            "value": "2419770"
         }
     },
     "addons": [],
